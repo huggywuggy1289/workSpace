@@ -7,7 +7,7 @@ public class Main {
         NumberGenerator png = new PrimeNumberGenerator();
 
         //관찰자 생성
-        Observer ob1 = new NamePrintObserver("손재윤"); // "손재윤"을 전달
+        Observer ob1 = new NamePrintObserver("손재윤"); // 해당 파라미터 전달
         Observer ob2 = new GraphObserver();
         Observer ob3 = new DigitObserver();
 
